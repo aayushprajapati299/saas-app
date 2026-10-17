@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b202cb1-2d75-42ff-9f2a-b62916471c21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/my-journey/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,61 +24,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0469583761572465" />
-      <entry key="MS500" value="2.384531645034265" />
-      <entry key="S2" value="4.91497779082666" />
-      <entry key="S5" value="6.031258611419555" />
-      <entry key="S10" value="6.489443728990377" />
-      <entry key="S30" value="6.843482993523435" />
-      <entry key="S60" value="7.213944859455402" />
-      <entry key="M2" value="8.645331313464895" />
-      <entry key="M5" value="15.628263532020885" />
-      <entry key="M10" value="27.402557377355322" />
-      <entry key="M15" value="36.16654387658346" />
-      <entry key="M30" value="52.94033941254836" />
-      <entry key="H1" value="69.43268747109539" />
-      <entry key="H2" value="82.18204027812209" />
-      <entry key="H4" value="90.319346392354" />
-      <entry key="D1" value="98.26499699896587" />
-      <entry key="W1" value="99.74895659530777" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000129" />
+      <entry key="S2" value="1.000702133641655" />
+      <entry key="S5" value="1.1206916109808096" />
+      <entry key="S10" value="1.6897504505203966" />
+      <entry key="S30" value="3.242994874964434" />
+      <entry key="S60" value="4.374441691134349" />
+      <entry key="M2" value="7.432244367298952" />
+      <entry key="M5" value="20.811290193826768" />
+      <entry key="M10" value="46.11320625652399" />
+      <entry key="M15" value="69.931756853063" />
+      <entry key="M30" value="121.40265782292238" />
+      <entry key="H1" value="173.1099454125794" />
+      <entry key="H2" value="213.17870951556742" />
+      <entry key="H4" value="238.96699653279626" />
+      <entry key="D1" value="264.4052025291175" />
+      <entry key="W1" value="269.1895154270022" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.362455551465022E-118" />
-      <entry key="S2" value="4.2821723285576496E-30" />
-      <entry key="S5" value="1.7901633682451054E-12" />
-      <entry key="S10" value="1.3684333115649044E-6" />
-      <entry key="S30" value="0.0148240631798278" />
-      <entry key="S60" value="0.19637448747279904" />
-      <entry key="M2" value="0.8826686785574451" />
-      <entry key="M5" value="2.9066378050162256" />
-      <entry key="M10" value="5.256260639870185" />
-      <entry key="M15" value="6.712427559690385" />
-      <entry key="M30" value="8.831034042389017" />
-      <entry key="H1" value="10.251717841644496" />
-      <entry key="H2" value="11.079900703071488" />
-      <entry key="H4" value="11.527763608998427" />
-      <entry key="D1" value="11.919538504997897" />
-      <entry key="W1" value="11.988461665500845" />
+      <entry key="MS100" value="2.687091072389753E-55" />
+      <entry key="MS500" value="1.2185868217907058E-11" />
+      <entry key="S2" value="0.0018683753087731917" />
+      <entry key="S5" value="0.08101877039872386" />
+      <entry key="S10" value="0.284637963734151" />
+      <entry key="S30" value="0.6578056763486874" />
+      <entry key="S60" value="0.811187338289596" />
+      <entry key="M2" value="0.9199787545350393" />
+      <entry key="M5" value="1.6854731044606923" />
+      <entry key="M10" value="4.409690177005699" />
+      <entry key="M15" value="7.3026470908137116" />
+      <entry key="M30" value="13.589253964835583" />
+      <entry key="H1" value="19.490515581369454" />
+      <entry key="H2" value="23.66260607986632" />
+      <entry key="H4" value="26.164521960960837" />
+      <entry key="D1" value="28.502188537188122" />
+      <entry key="W1" value="28.928237094895632" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0021138454642151" />
-      <entry key="MS500" value="2.311509549887345" />
-      <entry key="S2" value="4.870323654903427" />
-      <entry key="S5" value="6.0095455839867595" />
-      <entry key="S10" value="6.477842958792012" />
-      <entry key="S30" value="6.853888892390128" />
-      <entry key="S60" value="7.405769235768127" />
-      <entry key="M2" value="9.52009957963784" />
-      <entry key="M5" value="18.519190901346466" />
-      <entry key="M10" value="32.64067949395314" />
-      <entry key="M15" value="42.86224179575869" />
-      <entry key="M30" value="61.759439768714806" />
-      <entry key="H1" value="79.67714993330509" />
-      <entry key="H2" value="93.25791252091707" />
-      <entry key="H4" value="101.84498252002678" />
-      <entry key="D1" value="110.18416387435992" />
-      <entry key="W1" value="111.73736473440337" />
+      <entry key="MS100" value="8.773406645128546E-12" />
+      <entry key="MS500" value="0.006146581604843423" />
+      <entry key="S2" value="0.2815210547374813" />
+      <entry key="S5" value="0.7780574508745411" />
+      <entry key="S10" value="1.6994186831133533" />
+      <entry key="S30" value="3.775252445999699" />
+      <entry key="S60" value="5.108338264642716" />
+      <entry key="M2" value="8.288313995884701" />
+      <entry key="M5" value="22.434425533564916" />
+      <entry key="M10" value="50.46276891183182" />
+      <entry key="M15" value="77.1787849907391" />
+      <entry key="M30" value="134.9495832886975" />
+      <entry key="H1" value="192.57305029068146" />
+      <entry key="H2" value="236.8254682526732" />
+      <entry key="H4" value="265.12295840150733" />
+      <entry key="D1" value="292.9058655496734" />
+      <entry key="W1" value="298.11753201902667" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,7 +98,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -164,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1792239158085</updated>
       <workItem from="1792239158208" duration="298000" />
-      <workItem from="1792239474305" duration="5193000" />
+      <workItem from="1792239474305" duration="7566000" />
     </task>
     <servers />
   </component>
